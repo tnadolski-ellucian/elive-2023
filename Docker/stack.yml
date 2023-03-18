@@ -1,0 +1,17 @@
+version: '3.1'
+name: 'elive-stack1'
+services:
+  elive-db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: elive
+      POSTGRES_PASSWORD: elive
+      POSTGRES_DB: elive-db
+    ports:
+      - 9001:5432
+  elive-dbeaver:
+    image: dbeaver/cloudbeaver:latest
+    restart: always
+    ports:
+      - 9002:8978
