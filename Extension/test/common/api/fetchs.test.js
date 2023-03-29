@@ -89,7 +89,7 @@ describe('validates each fetch', () => {
         try {
             await fetchWaitlist(jwt, baseApiUrl, libraryBook);
         } catch (err) {
-            expect(err.message).toEqual('Failed to save waitlist');
+            expect(err.message).toEqual('Failed to fetch waitlist');
         }
     });
 
@@ -112,7 +112,7 @@ describe('validates each fetch', () => {
         try {
             await fetchReservations(jwt, baseApiUrl, libraryBook);
         } catch (err) {
-            expect(err.message).toEqual('Failed to save reservations');
+            expect(err.message).toEqual('Failed to fetch reservations');
         }
     });
 

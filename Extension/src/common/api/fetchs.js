@@ -57,7 +57,7 @@ export const fetchWaitlist = async (jwt, baseApiUrl) => {
 
     if (!response.ok) {
         const error = new Error();
-        error.message = "Failed to save waitlist";
+        error.message = "Failed to fetch waitlist";
 
         throw error;
     }
@@ -77,7 +77,7 @@ export const fetchReservations = async (jwt, baseApiUrl) => {
 
     if (!response.ok) {
         const error = new Error();
-        error.message = "Failed to save reservations";
+        error.message = "Failed to fetch reservations";
 
         throw error;
     }

@@ -7,9 +7,6 @@ import '@testing-library/jest-dom';
 import { useCardControl } from '@ellucian/experience-extension-utils';
 import { fetchReservations, fetchWaitlist } from '../../src/common/api/fetchs';
 
-// there are child fetch calls
-// we have 100% code coverage for our fetchs
-// we'll override where we need to
 global.fetch = jest.fn();
 
 // these hooks are provided by experience context

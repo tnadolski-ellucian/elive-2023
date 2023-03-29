@@ -12,7 +12,7 @@ module.exports = {
     "cards": [{
         "type": "ExtensionCard",
         "source": "./src/cards/ExtensionCard",
-        "title": "Extension Card",
+        "title": "Eloyce Library Card",
         "displayCardType": "Extension Card",
         "description": "This is an introductory card to the Ellucian Experience SDK",
         "pageRoute": {

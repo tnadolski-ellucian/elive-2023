@@ -51,7 +51,7 @@ insert into Books (id, title, type, subject, location, availability) values ('2e
 insert into Books (id, title, type, subject, location, availability) values ('71954bdf-26b0-4eb5-a8f5-272941f9f359', 'I''ve Loved You So Long (Il y a longtemps que je t''aime)', 'Book', 'Astronomy', 'Online', false);
 insert into Books (id, title, type, subject, location, availability) values ('dfa55f77-c2c2-4a1b-ba5f-607776175793', 'I Am (Jestem)', 'Video', 'Physics', 'Online', true);
 insert into Books (id, title, type, subject, location, availability) values ('edbd9d3c-4374-40db-bdb5-1040f0e30472', 'Child of Rage', 'Article', 'Computer Science', 'E. Eloyce Library', true);
-insert into Books (id, title, type, subject, location, availability) values ('1cad37b4-ea13-4de2-9815-f200e875b8f4', '33 Postcards', 'Article', 'Food Studies', 'Online', true);
+insert into Books (id, title, type, subject, location, availability) values ('1cad37b4-ea13-4de2-9815-f200e875b8f4', 'Eragon', 'Article', 'Food Studies', 'Online', true);
 insert into Books (id, title, type, subject, location, availability) values ('fd0d973a-8ba7-4f85-9d03-0a11ce27f8c8', 'Godzilla 2000 (Gojira ni-sen mireniamu)', 'Newspaper', 'Psychology', 'W. Eloyce Library', false);
 insert into Books (id, title, type, subject, location, availability) values ('7b3c4ff9-edbe-4052-b075-2cbee4a4d7ce', 'Englishman Who Went Up a Hill But Came Down a Mountain, The', 'E-book', 'Art and Literature', 'Online', false);
 insert into Books (id, title, type, subject, location, availability) values ('9c884a77-ec8c-4263-8289-b1b1be0950e2', 'Arcade', 'Book', 'Music', 'E. Eloyce Library', true);
@@ -74,7 +74,7 @@ insert into Books (id, title, type, subject, location, availability) values ('55
 insert into Books (id, title, type, subject, location, availability) values ('f6fe9cb8-45ff-48a9-9876-f2604bb2de83', 'Riddick', 'Book', 'French', 'E. Eloyce Library', false);
 insert into Books (id, title, type, subject, location, availability) values ('b696ac91-4da3-4915-83f9-1d346de8108e', 'Guinea Pig: Flowers of Flesh and Blood (Za ginipiggu 2: Chiniku no hana)', 'Book', 'Art and Literature', 'W. Eloyce Library', true);
 insert into Books (id, title, type, subject, location, availability) values ('a746d18b-c2d6-4396-b01c-d213ac1e1456', 'There''s a Girl in My Soup', 'Newspaper', 'Computer Science', 'E. Eloyce Library', true);
-insert into Books (id, title, type, subject, location, availability) values ('c4919ede-460a-4ebf-94e2-82bdc459d569', '9 Souls (Nain souruzu)', 'Audio Book', 'Art and Literature', 'W. Eloyce Library', false);
+insert into Books (id, title, type, subject, location, availability) values ('c4919ede-460a-4ebf-94e2-82bdc459d569', 'The Art of War', 'Audio Book', 'Art and Literature', 'W. Eloyce Library', false);
 insert into Books (id, title, type, subject, location, availability) values ('820cb500-58d7-4fbb-bd5e-db59f911a0db', 'Ministry of Fear', 'Book', 'Political Science', 'W. Eloyce Library', false);
 insert into Books (id, title, type, subject, location, availability) values ('bdc12342-adab-4f25-81e4-36d1cfeb31b2', 'Anatomy of Hell (Anatomie de l''enfer)', 'Newspaper', 'Political Science', 'E. Eloyce Library', true);
 insert into Books (id, title, type, subject, location, availability) values ('dd17bd20-3b8c-4e08-beb7-615b026b9a10', 'Conan O''Brien Can''t Stop', 'Newspaper', 'Food Studies', 'Online', true);
@@ -199,7 +199,7 @@ insert into Books (id, title, type, subject, location, availability) values ('ee
 insert into Books (id, title, type, subject, location, availability) values ('cae549f1-1ff5-4394-9537-c3973c90cc45', 'Pretty Woman', 'Audio Book', 'Art and Literature', 'W. Eloyce Library', true);
 insert into Books (id, title, type, subject, location, availability) values ('05885cf6-fde3-467e-81bb-bbbf7db95cac', 'In the Mix', 'Book', 'Food Studies', 'Online', true);
 insert into Books (id, title, type, subject, location, availability) values ('80c26dea-bb10-4d5b-99a0-e458e6adef29', 'Vääpeli Körmy ja kahtesti laukeava', 'Article', 'Political Science', 'W. Eloyce Library', false);
-insert into Books (id, title, type, subject, location, availability) values ('9a9474f9-c153-4751-98ca-d43cc1ac1034', '7 Days (Les 7 jours du talion)', 'Video', 'Physics', 'E. Eloyce Library', true);
+insert into Books (id, title, type, subject, location, availability) values ('9a9474f9-c153-4751-98ca-d43cc1ac1034', 'In My Hands', 'Video', 'Physics', 'E. Eloyce Library', true);
 insert into Books (id, title, type, subject, location, availability) values ('9c870584-cb47-41b9-ba32-4aa6f0f86ce4', 'Altman', 'Book', 'Law', 'Online', true);
 insert into Books (id, title, type, subject, location, availability) values ('c0316148-ba8b-42e9-af01-0b9d1258bb36', 'Men of Means', 'E-book', 'Art and Literature', 'E. Eloyce Library', true);
 insert into Books (id, title, type, subject, location, availability) values ('fe044289-6c97-4b98-8214-55c55c009b93', 'Pure Luck', 'Newspaper', 'Philosophy', 'E. Eloyce Library', true);
@@ -335,7 +335,7 @@ insert into Books (id, title, type, subject, location, availability) values ('47
 insert into Books (id, title, type, subject, location, availability) values ('b50167fc-4c13-4a81-ae40-b4aa020fa7d7', 'Ernest Goes to Jail', 'Video', 'English', 'Online', false);
 insert into Books (id, title, type, subject, location, availability) values ('d9ddf62a-28c4-44fc-b256-6802f5d56623', 'Purge (Puhdistus)', 'Article', 'Psychology', 'Online', false);
 insert into Books (id, title, type, subject, location, availability) values ('36d7ce8d-8e59-487f-a360-191592cc1cc0', 'Elstree Calling', 'Article', 'Computer Science', 'Online', true);
-insert into Books (id, title, type, subject, location, availability) values ('872fcf7f-7971-4e6e-8d0f-503e822556f1', '+1', 'Audio Book', 'Economics', 'E. Eloyce Library', false);
+insert into Books (id, title, type, subject, location, availability) values ('872fcf7f-7971-4e6e-8d0f-503e822556f1', 'This is Going to Hurt', 'Audio Book', 'Economics', 'E. Eloyce Library', false);
 insert into Books (id, title, type, subject, location, availability) values ('645104e0-6e43-4f23-a326-0496f722dfeb', 'Forty-first, The (Sorok pervyy)', 'Article', 'Mathematics', 'E. Eloyce Library', false);
 insert into Books (id, title, type, subject, location, availability) values ('7de90cdc-c6c7-4625-8dd5-88193ac17e62', 'Killshot', 'Article', 'French', 'E. Eloyce Library', true);
 insert into Books (id, title, type, subject, location, availability) values ('2c1169dc-3eee-4b58-9618-5ef9c907a550', 'Last Will of Dr. Mabuse, The (Testament du Dr. Mabuse, Le)', 'Video', 'Spanish', 'E. Eloyce Library', true);
@@ -369,7 +369,7 @@ insert into Books (id, title, type, subject, location, availability) values ('f8
 insert into Books (id, title, type, subject, location, availability) values ('ab07097f-f263-4064-a07d-8e3cc775db79', 'Pusher II: With Blood on My Hands', 'E-book', 'Psychology', 'Online', false);
 insert into Books (id, title, type, subject, location, availability) values ('0aa860d7-2253-4b0a-9ef8-aab02e046a2f', 'African Cats', 'Audio Book', 'Public Health', 'E. Eloyce Library', true);
 insert into Books (id, title, type, subject, location, availability) values ('cdbe94a4-b972-4db8-90c0-827aa6a0d87b', 'Mortal Kombat', 'E-book', 'Computer Science', 'Online', false);
-insert into Books (id, title, type, subject, location, availability) values ('fbda13c7-f00d-4a1d-b1cb-9b9631bad7fb', '300 Miles to Heaven (300 Mil do Nieba)', 'E-book', 'French', 'Online', false);
+insert into Books (id, title, type, subject, location, availability) values ('fbda13c7-f00d-4a1d-b1cb-9b9631bad7fb', 'Harry Potter and the Chamber of Secrets', 'E-book', 'French', 'Online', false);
 insert into Books (id, title, type, subject, location, availability) values ('0a3877ef-cc22-40d2-9afd-f861e95c6370', 'Henry: Portrait of a Serial Killer, Part 2', 'Audio Book', 'Art and Literature', 'W. Eloyce Library', false);
 insert into Books (id, title, type, subject, location, availability) values ('a4253fa2-4e77-4882-b2e7-6b56a54ac6bb', 'Chapman Report, The', 'Audio Book', 'Economics', 'E. Eloyce Library', false);
 insert into Books (id, title, type, subject, location, availability) values ('f5ac89c7-2469-4751-986c-a5348bcc69b2', 'Pit, The', 'E-book', 'Biology', 'W. Eloyce Library', false);
@@ -378,7 +378,7 @@ insert into Books (id, title, type, subject, location, availability) values ('12
 insert into Books (id, title, type, subject, location, availability) values ('1664a533-4bc8-476f-81b5-e5d350002f8d', 'Bloodsport', 'Article', 'Economics', 'W. Eloyce Library', true);
 insert into Books (id, title, type, subject, location, availability) values ('6532cdc5-30cf-4f69-895e-e0fc5f9c13f3', 'Book of Fate, The (Kohtalon kirja)', 'Article', 'Geography', 'Online', false);
 insert into Books (id, title, type, subject, location, availability) values ('80e9bcac-131b-4b90-a9de-785bf22cbdfa', 'Survivors, The', 'E-book', 'Environmental Sciences', 'Online', true);
-insert into Books (id, title, type, subject, location, availability) values ('56ec28a8-7791-4a13-8dce-3de26539c7b1', '48 Shades', 'Article', 'Biology', 'W. Eloyce Library', true);
+insert into Books (id, title, type, subject, location, availability) values ('56ec28a8-7791-4a13-8dce-3de26539c7b1', 'EON', 'Article', 'Biology', 'W. Eloyce Library', true);
 insert into Books (id, title, type, subject, location, availability) values ('0f6f8f57-92c7-4b5c-8faa-7fb0f116f4d5', 'Primary Colors', 'Audio Book', 'Economics', 'W. Eloyce Library', false);
 insert into Books (id, title, type, subject, location, availability) values ('9fbd492a-7cac-443f-ad02-7d35a5f7d8f9', 'Tru Confessions', 'Video', 'English', 'Online', false);
 insert into Books (id, title, type, subject, location, availability) values ('f03a1c37-61fc-4e92-87af-8b2c5c367ad1', 'Stephanie Daley', 'Audio Book', 'Geography', 'E. Eloyce Library', true);
@@ -473,7 +473,7 @@ insert into Books (id, title, type, subject, location, availability) values ('14
 insert into Books (id, title, type, subject, location, availability) values ('fe3a0294-47ce-4792-b4f6-491150b2879e', 'Game, The', 'Article', 'English', 'E. Eloyce Library', false);
 insert into Books (id, title, type, subject, location, availability) values ('72b19727-b194-424c-9dca-41320f1814f5', 'Grayeagle', 'Book', 'Chemistry', 'Online', false);
 insert into Books (id, title, type, subject, location, availability) values ('e8c09845-2d9b-4deb-a843-362674a3f776', 'Poltergeist', 'E-book', 'Music', 'Online', false);
-insert into Books (id, title, type, subject, location, availability) values ('05786fa2-acbe-4d96-a352-1d1c437b0789', '3 Ninjas Kick Back', 'E-book', 'Psychology', 'W. Eloyce Library', false);
+insert into Books (id, title, type, subject, location, availability) values ('05786fa2-acbe-4d96-a352-1d1c437b0789', 'Ninjas Kick Back', 'E-book', 'Psychology', 'W. Eloyce Library', false);
 insert into Books (id, title, type, subject, location, availability) values ('fb10d85f-abb5-4b80-aca9-20ac4984fe75', 'For a Few Dollars More (Per qualche dollaro in più)', 'Video', 'Biology', 'E. Eloyce Library', false);
 insert into Books (id, title, type, subject, location, availability) values ('d09192ab-285b-48c3-b176-7f401a4f506c', 'Closer to the Moon', 'Article', 'Mathematics', 'W. Eloyce Library', false);
 insert into Books (id, title, type, subject, location, availability) values ('498e2b8e-2294-48dd-be52-fdf5fbee002e', 'Appleseed Alpha', 'Audio Book', 'English', 'W. Eloyce Library', true);
@@ -578,7 +578,7 @@ insert into Books (id, title, type, subject, location, availability) values ('14
 insert into Books (id, title, type, subject, location, availability) values ('09797331-c825-46b7-9bf2-0cd0102b0c48', 'Delta of Venus', 'Book', 'Astronomy', 'W. Eloyce Library', true);
 insert into Books (id, title, type, subject, location, availability) values ('ed4c09eb-6e21-4367-92bb-9458a6ab59db', 'Firecracker', 'Newspaper', 'Biology', 'Online', true);
 insert into Books (id, title, type, subject, location, availability) values ('0dc1efe4-93e8-4180-b2b4-627185b33738', 'Talladega Nights: The Ballad of Ricky Bobby', 'E-book', 'Economics', 'E. Eloyce Library', true);
-insert into Books (id, title, type, subject, location, availability) values ('58d757bc-7afb-4ab3-8564-474ff7fe2045', '7th Floor', 'Newspaper', 'Biology', 'Online', true);
+insert into Books (id, title, type, subject, location, availability) values ('58d757bc-7afb-4ab3-8564-474ff7fe2045', 'Persuasion', 'Newspaper', 'Biology', 'Online', true);
 insert into Books (id, title, type, subject, location, availability) values ('b12be440-7639-4d47-9c53-f635a49bc010', 'Exit Through the Gift Shop', 'E-book', 'Mathematics', 'W. Eloyce Library', true);
 insert into Books (id, title, type, subject, location, availability) values ('3f1a855a-6f18-4ba8-9911-9803e24a1ca9', 'Parent Trap, The', 'Newspaper', 'Music', 'W. Eloyce Library', true);
 insert into Books (id, title, type, subject, location, availability) values ('9b9cec2a-b829-4b10-be0e-64a7aa4afdd5', 'Notebook, The', 'Video', 'Law', 'Online', true);
@@ -714,7 +714,7 @@ insert into Books (id, title, type, subject, location, availability) values ('47
 insert into Books (id, title, type, subject, location, availability) values ('16dd0e62-8095-4e30-a37b-4b0abf1ce62b', 'Love and Lemons (Små citroner gula)', 'Video', 'Spanish', 'E. Eloyce Library', true);
 insert into Books (id, title, type, subject, location, availability) values ('feb5970b-a78b-4ad3-bb03-1d617b1b17fe', 'Ed Hardy: Tattoo the World ', 'Video', 'English', 'W. Eloyce Library', false);
 insert into Books (id, title, type, subject, location, availability) values ('9f140f6d-1d2c-4daf-a5a4-82e813b6d17e', 'Rising Sun', 'Book', 'Music', 'W. Eloyce Library', true);
-insert into Books (id, title, type, subject, location, availability) values ('66169b88-e277-4c3b-9637-ad47c289e14a', 'Child Bride', 'Newspaper', 'Environmental Sciences', 'Online', true);
+insert into Books (id, title, type, subject, location, availability) values ('66169b88-e277-4c3b-9637-ad47c289e14a', 'Ugly Love', 'Newspaper', 'Environmental Sciences', 'Online', true);
 insert into Books (id, title, type, subject, location, availability) values ('d6b8b259-c1a9-4a8a-b43f-71060c1dba42', 'Oranges', 'Newspaper', 'Law', 'E. Eloyce Library', false);
 insert into Books (id, title, type, subject, location, availability) values ('ed548377-9c6b-4075-b476-de2d92ee6374', 'Visions of Light: The Art of Cinematography', 'Newspaper', 'Public Health', 'E. Eloyce Library', false);
 insert into Books (id, title, type, subject, location, availability) values ('79953e88-4f78-431f-9d94-6d50d2242ea4', 'Happy Go Lovely', 'Newspaper', 'Music', 'W. Eloyce Library', true);
@@ -740,7 +740,7 @@ insert into Books (id, title, type, subject, location, availability) values ('de
 insert into Books (id, title, type, subject, location, availability) values ('38170c83-0256-4b41-b1cc-7c62135956d2', 'Escape to Athena', 'Audio Book', 'Food Studies', 'Online', true);
 insert into Books (id, title, type, subject, location, availability) values ('b157ca3e-839e-4569-afcd-a72a658806c3', 'Fellini''s Casanova (Il Casanova di Federico Fellini)', 'Video', 'Psychology', 'W. Eloyce Library', true);
 insert into Books (id, title, type, subject, location, availability) values ('f6174f61-09aa-410c-9bbb-f02517844768', 'Walking with Monsters', 'Video', 'Economics', 'W. Eloyce Library', true);
-insert into Books (id, title, type, subject, location, availability) values ('f3074cd1-caa9-4416-99fc-8fd84f7cf23d', '40 Guns to Apache Pass', 'E-book', 'English', 'W. Eloyce Library', false);
+insert into Books (id, title, type, subject, location, availability) values ('f3074cd1-caa9-4416-99fc-8fd84f7cf23d', 'Guns to Apache Pass', 'E-book', 'English', 'W. Eloyce Library', false);
 insert into Books (id, title, type, subject, location, availability) values ('680e1734-8cfc-4486-940a-ba60797f8c94', 'Late August, Early September (Fin août, début septembre)', 'E-book', 'French', 'W. Eloyce Library', true);
 insert into Books (id, title, type, subject, location, availability) values ('824a4fd2-344a-456f-b29a-2cfba908433a', 'At Midnight I''ll Take Your Soul (À Meia-Noite Levarei Sua Alma)', 'Article', 'Law', 'E. Eloyce Library', true);
 insert into Books (id, title, type, subject, location, availability) values ('a22bf42b-b051-4f8b-abf2-dd658e6f55f6', 'Non-Stop', 'Newspaper', 'Law', 'Online', false);
@@ -851,7 +851,7 @@ insert into Books (id, title, type, subject, location, availability) values ('56
 insert into Books (id, title, type, subject, location, availability) values ('2d17c19a-498b-4c92-a5af-978314a486af', 'Bean', 'Book', 'Music', 'E. Eloyce Library', true);
 insert into Books (id, title, type, subject, location, availability) values ('2412982e-9a04-44b2-83be-92bb9adb501f', 'First Strike (Police Story 4: First Strike) (Ging chaat goo si 4: Ji gaan daan yam mo)', 'E-book', 'Biology', 'E. Eloyce Library', false);
 insert into Books (id, title, type, subject, location, availability) values ('062a5e4c-a6a6-448c-85b0-37255b1a6f2d', 'Strayed (égarés, Les)', 'Audio Book', 'Mathematics', 'Online', true);
-insert into Books (id, title, type, subject, location, availability) values ('480aaa06-ce21-4924-aa66-e5bf622b90d2', '28 Hotel Rooms', 'Newspaper', 'Economics', 'W. Eloyce Library', true);
+insert into Books (id, title, type, subject, location, availability) values ('480aaa06-ce21-4924-aa66-e5bf622b90d2', 'The Hobbit', 'Newspaper', 'Economics', 'W. Eloyce Library', true);
 insert into Books (id, title, type, subject, location, availability) values ('a456f157-619f-4d13-bc51-b4402d2346f5', 'Quiet Ones, The', 'Video', 'Environmental Sciences', 'E. Eloyce Library', false);
 insert into Books (id, title, type, subject, location, availability) values ('d5627fc1-3074-4724-b678-7e9e734e2a71', 'All the Young Men', 'E-book', 'Physics', 'E. Eloyce Library', false);
 insert into Books (id, title, type, subject, location, availability) values ('d8b5ae44-f276-43f3-95d3-ed026c87175d', 'Annabelle', 'Article', 'Political Science', 'E. Eloyce Library', true);
@@ -881,7 +881,7 @@ insert into Books (id, title, type, subject, location, availability) values ('d8
 insert into Books (id, title, type, subject, location, availability) values ('33728960-3a21-4a99-9387-b13021ff12dc', 'Sherlock Holmes', 'Video', 'Public Health', 'Online', false);
 insert into Books (id, title, type, subject, location, availability) values ('318cefed-dadc-40f8-9e8e-a72d756723ec', 'Submarine', 'E-book', 'Law', 'E. Eloyce Library', true);
 insert into Books (id, title, type, subject, location, availability) values ('eb14eb33-85f2-4d31-8b9c-25cfb6b27d9c', 'Vacation from Marriage', 'Article', 'Political Science', 'Online', false);
-insert into Books (id, title, type, subject, location, availability) values ('eb932da0-1e01-4168-9f8f-490626f8ee55', '48 Hrs.', 'Article', 'French', 'Online', true);
+insert into Books (id, title, type, subject, location, availability) values ('eb932da0-1e01-4168-9f8f-490626f8ee55', 'Hatchet', 'Article', 'French', 'Online', true);
 insert into Books (id, title, type, subject, location, availability) values ('42e51563-ca0a-46e4-8244-ce47a8761a12', 'Cube Zero', 'Video', 'French', 'E. Eloyce Library', false);
 insert into Books (id, title, type, subject, location, availability) values ('3bfd09e5-1a78-48cb-abf6-1b3f2e832e96', 'Three Resurrected Drunkards (Kaette kita yopparai)', 'E-book', 'Physics', 'E. Eloyce Library', false);
 insert into Books (id, title, type, subject, location, availability) values ('d6449cf0-fd8e-4a24-8c83-05e4c40a2e16', 'Jimmy Carter Man from Plains', 'Book', 'Psychology', 'E. Eloyce Library', true);
@@ -914,7 +914,7 @@ insert into Books (id, title, type, subject, location, availability) values ('45
 insert into Books (id, title, type, subject, location, availability) values ('1f9f2037-2926-4b61-8ec0-4cab53bbce7b', 'Ginger & Rosa', 'Book', 'Art and Literature', 'W. Eloyce Library', true);
 insert into Books (id, title, type, subject, location, availability) values ('be52a5de-a658-49f3-95f7-65e877b8dd01', 'Hobbit: The Desolation of Smaug, The', 'E-book', 'Data Science', 'Online', false);
 insert into Books (id, title, type, subject, location, availability) values ('41bc201e-182b-4e1a-8172-f2fb2a5322d4', 'Thaw, The', 'Newspaper', 'Music', 'E. Eloyce Library', false);
-insert into Books (id, title, type, subject, location, availability) values ('d212b77a-d26a-43c6-b01e-42499a000ad1', '1001 Nights', 'Video', 'English', 'W. Eloyce Library', true);
+insert into Books (id, title, type, subject, location, availability) values ('d212b77a-d26a-43c6-b01e-42499a000ad1', 'Pride & Prejudice', 'Video', 'English', 'W. Eloyce Library', true);
 insert into Books (id, title, type, subject, location, availability) values ('8bdb33ef-444f-4d11-ab44-ac0812e30de9', 'Americano', 'Video', 'Chemistry', 'Online', false);
 insert into Books (id, title, type, subject, location, availability) values ('032487e4-11b4-4d8b-80c1-48163c39bb9e', 'Generation Kill', 'Newspaper', 'Mathematics', 'W. Eloyce Library', true);
 insert into Books (id, title, type, subject, location, availability) values ('712febe1-6a56-45bc-b167-1f6fbb6db807', 'Mating Season, The', 'Article', 'Spanish', 'E. Eloyce Library', false);
@@ -953,7 +953,7 @@ insert into Books (id, title, type, subject, location, availability) values ('86
 insert into Books (id, title, type, subject, location, availability) values ('9d2f04e4-4705-4d59-a63a-98f869ba0b37', 'Welcome to Sherwood! The Story of ''The Adventures of Robin Hood''', 'Book', 'Food Studies', 'W. Eloyce Library', true);
 insert into Books (id, title, type, subject, location, availability) values ('cf917825-80c4-4aca-b564-f6c249f6edfe', 'Tell Them Who You Are', 'Article', 'Philosophy', 'E. Eloyce Library', false);
 insert into Books (id, title, type, subject, location, availability) values ('edb4688d-911d-4655-82ff-23c778321815', 'Place of One''s Own, A', 'Audio Book', 'Music', 'E. Eloyce Library', false);
-insert into Books (id, title, type, subject, location, availability) values ('a518ee44-179b-4210-ad66-1af128a12265', '102 Minutes That Changed America', 'Audio Book', 'Environmental Sciences', 'W. Eloyce Library', false);
+insert into Books (id, title, type, subject, location, availability) values ('a518ee44-179b-4210-ad66-1af128a12265', 'Where the Wild Things Are', 'Audio Book', 'Environmental Sciences', 'W. Eloyce Library', false);
 insert into Books (id, title, type, subject, location, availability) values ('9954a2c8-0205-4fa4-bfc1-d52cb8e4c97a', 'Meetin'' WA', 'Article', 'English', 'Online', true);
 insert into Books (id, title, type, subject, location, availability) values ('b98f1a8b-682e-4b81-b5ea-cf059bc51c40', 'Winter Sleep (Kis Uykusu)', 'Article', 'Environmental Sciences', 'Online', false);
 insert into Books (id, title, type, subject, location, availability) values ('bfbecc30-5bed-4413-8eb0-ebf9703bc93c', 'Europa Europa (Hitlerjunge Salomon)', 'Article', 'Biology', 'E. Eloyce Library', false);

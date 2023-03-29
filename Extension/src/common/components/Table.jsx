@@ -51,7 +51,7 @@ export function InternalTable({ data, createButton }) {
                                     {book.location}
                                 </TableCell>
                                 <TableCell columnName="Availability" size="small" className={classes.smallCell}>
-                                    {String(book.availability)}
+                                    {book.availability ? 'Available' : 'Checked Out'}
                                 </TableCell>
                                 <TableCell columnName="Reserve" size="small" className={classes.smallCell}>
                                     {createButton(book)}
